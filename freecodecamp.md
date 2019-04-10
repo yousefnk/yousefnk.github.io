@@ -224,3 +224,131 @@ c /= 11;
 
 #	21
 
+```js
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
+
+// Only change code below this line
+var myFirstName = "Yousef"; 
+var myLastName = "Katat";
+
+```
+
+#	22
+
+```js
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+
+```
+
+#	23
+
+```js
+var myStr = '<a href="http://www.example.com"target="_blank">Link</a>';
+
+```
+
+#	24
+
+```js
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; 
+// Change this line
+
+```
+
+#	25
+
+```js
+// Example
+var ourStr = "I come first. " + "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the start. " + "This is the end.";
+
+```
+
+#	26
+
+```js
+// Example
+var ourStr = "I come first. ";
+ourStr += "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+```
+
+#	27
+
+```js
+// Example
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
+
+// Only change code below this line
+var myName = "Yousef";
+var myStr = "My name is " + myName + " and I am well!";
+
+```
+
+#	28
+
+```js
+// Example
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+
+// Only change code below this line
+
+var someAdjective = "awesome!";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+```
+
+#	29
+
+```js
+// Example
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+
+```
+
+#	30
+
+```js
+// Example
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0];
+
+```
+
+#	31
+
+
