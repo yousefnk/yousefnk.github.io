@@ -524,3 +524,160 @@ var removedFromMyArray = myArray.pop();
 ```
 
 #	43
+
+```js
+// Example
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
+
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line.
+var removedFromMyArray = myArray.shift();
+
+```
+
+#	44
+
+```js
+// Example
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray now equals ["J", "cat"]
+ourArray.unshift("Happy"); 
+// ourArray now equals ["Happy", "J", "cat"]
+
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line.
+myArray.unshift("Paul", 35);
+
+```
+
+#	45
+
+```js
+// Example
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); // ourArray now equals ["J", "cat"]
+ourArray.unshift("Happy"); 
+// ourArray now equals ["Happy", "J", "cat"]
+
+// Setup
+var myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line.
+myArray.unshift(["Paul", 35]);
+
+```
+
+#	46
+
+```js
+var myList = [["Chocolate Bar", 15],["Chocolate Bar", 15],["Chocolate Bar", 15],["Chocolate Bar", 15],["Chocolate Bar", 15]];
+
+```
+
+#	47
+
+```js
+// Example
+function ourReusableFunction() {
+  console.log("Heyya, World");
+}
+
+ourReusableFunction();
+
+// Only change code below this line
+function reusableFunction() {
+    console.log("Hi World");
+}
+
+reusableFunction();
+
+```
+
+#	48
+
+```js
+// Example
+function ourFunctionWithArgs(a, b) {
+  console.log(a - b);
+}
+ourFunctionWithArgs(10, 5); // Outputs 5
+
+// Only change code below this line.
+function functionWithArgs (x, z) {
+  console.log(x + z);
+}
+functionWithArgs (7, 12);
+
+```
+
+#	49
+
+```js
+// Declare your variable here
+var myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
+```
+
+#	50
+
+```js
+function myLocalScope() {
+  'use strict'; // you shouldn't need to edit this line
+  
+  console.log(myVar);
+}
+myLocalScope();
+var myVar;
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log(myVar);
+
+// Now remove the console log line to pass the test
+
+```
+
+#	51
+
+```js
+// Setup
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  var outerWear = "sweater";
+  
+  
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
+```
+
+#	52
