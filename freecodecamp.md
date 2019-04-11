@@ -560,29 +560,11 @@ myArray.unshift("Paul", 35);
 #	45
 
 ```js
-// Example
-var ourArray = ["Stimpson", "J", "cat"];
-ourArray.shift(); // ourArray now equals ["J", "cat"]
-ourArray.unshift("Happy"); 
-// ourArray now equals ["Happy", "J", "cat"]
-
-// Setup
-var myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
-
-// Only change code below this line.
-myArray.unshift(["Paul", 35]);
-
-```
-
-#	46
-
-```js
 var myList = [["Chocolate Bar", 15],["Chocolate Bar", 15],["Chocolate Bar", 15],["Chocolate Bar", 15],["Chocolate Bar", 15]];
 
 ```
 
-#	47
+#	46
 
 ```js
 // Example
@@ -601,7 +583,7 @@ reusableFunction();
 
 ```
 
-#	48
+#	47
 
 ```js
 // Example
@@ -618,7 +600,7 @@ functionWithArgs (7, 12);
 
 ```
 
-#	49
+#	48
 
 ```js
 // Declare your variable here
@@ -643,7 +625,7 @@ function fun2() {
 
 ```
 
-#	50
+#	49
 
 ```js
 function myLocalScope() {
@@ -661,7 +643,7 @@ console.log(myVar);
 
 ```
 
-#	51
+#	50
 
 ```js
 // Setup
@@ -680,4 +662,4 @@ myOutfit();
 
 ```
 
-#	52
+#	51
