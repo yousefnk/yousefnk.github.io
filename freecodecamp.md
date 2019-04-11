@@ -351,4 +351,176 @@ firstLetterOfLastName = lastName[0];
 
 #	31
 
+```js
+// Setup
+var myStr = "Jello World";
 
+// Only change code below this line
+
+myStr = "Hello World"; // Fix Me
+
+```
+
+#	32
+
+```js
+// Example
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
+
+```
+
+#	33
+
+```js
+// Example
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line.
+var lastLetterOfLastName = lastName[lastName.length - 1];
+
+```
+
+#	34
+
+```js
+// Example
+var firstName = "Ada";
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+```
+
+#	35
+
+```js
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+  // Your code below this line
+  var result = "";
+  result = "My " + myNoun + " is " + myAdjective + " and " + myVerb + " " + myAdverb + "!";
+
+  // Your code above this line
+  return result;
+}
+
+// Change the words here to test your function
+wordBlanks("dog", "big", "ran", "quickly");
+
+```
+
+#	36
+
+```js
+// Example
+var ourArray = ["John", 23];
+
+// Only change code below this line.
+var myArray = ["Yousef", 69];
+
+```
+
+#	37
+
+```js
+// Example
+var ourArray = [["the universe", 42], ["everything", 101010]];
+
+// Only change code below this line.
+var myArray = [["Hi", 11], ["Hello", 7]];
+
+```
+
+#	38
+
+```js
+// Example
+var ourArray = [50,60,70];
+var ourData = ourArray[0]; // equals 50
+
+// Setup
+var myArray = [50,60,70];
+
+// Only change code below this line.
+var myData = myArray[0];
+
+
+```
+
+#	39
+
+```js
+// Example
+var ourArray = [18,64,99];
+ourArray[1] = 45; // ourArray now equals [18,45,99].
+
+// Setup
+var myArray = [18,64,99];
+
+// Only change code below this line.
+myArray[0] = 45; 
+
+
+```
+
+#	40
+
+```js
+// Setup
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
+
+// Only change code below this line.
+var myData = myArray[2][1];
+
+
+```
+
+#	41
+
+```js
+// Example
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.push(["happy", "joy"]); 
+// ourArray now equals ["Stimpson", "J", "cat", ["happy", "joy"]]
+
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line.
+myArray.push(["dog", 3]);
+
+
+```
+
+#	42
+
+```js
+// Example
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop(); 
+// removedFromOurArray now equals 3, and ourArray now equals [1,2]
+
+// Setup
+var myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line.
+var removedFromMyArray = myArray.pop();
+
+
+```
+
+#	43
