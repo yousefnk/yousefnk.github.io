@@ -1,1 +1,1 @@
-SyntaxError: expected expression, got '}'
+test
