@@ -1,4 +1,4 @@
-# 	1
+# 	1 - Introduction to JavaScript
 
 ```js
 // This is an in-line comment.
